@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #9d1010;
+  --color-dark: #0f0f0f;
+  
+  --font-sans: "Outfit", "Montserrat", sans-serif;
+  --font-script: "Great Vibes", cursive;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-dark);
+    color: white;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+/* Custom utility for the red script text */
+.text-script-primary {
+  font-family: var(--font-script);
+  color: var(--color-primary);
+}
