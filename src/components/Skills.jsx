@@ -108,7 +108,7 @@ export default function Skills() {
                       {tool.icon === "CSS" ? (
                         <span className="text-black font-black text-[10px] md:text-xs tracking-tighter">VN</span>
                       ) : (
-                        <img src={tool.icon} alt={tool.name} className="w-full h-full object-contain rounded-lg" />
+                        <img src={tool.icon} alt={tool.name} className="w-full h-full object-cover rounded-lg" />
                       )}
                     </div>
                     <span className="text-white text-[9px] md:text-[11px] font-medium text-center break-words w-full leading-tight opacity-90 group-hover:opacity-100 transition-opacity">{tool.name}</span>
@@ -124,7 +124,7 @@ export default function Skills() {
                 
                 {/* Center Logo */}
                 <div className="absolute inset-0 m-auto w-[150px] h-[40px] z-10 flex items-center justify-center">
-                   <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Google_Workspace_Logo.svg" className="w-full h-full object-contain" alt="Workspace" />
+                   <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Google_Workspace_Logo.svg" className="w-full h-full object-cover" alt="Workspace" />
                 </div>
                 
                 {/* Thin dashed circle path */}
@@ -153,7 +153,7 @@ export default function Skills() {
                       transition={{ duration: 1, delay: idx * 0.1, type: "spring", stiffness: 50 }}
                     >
                       <div className="w-full h-full flex items-center justify-center">
-                        <img src={icon} alt="icon" className="w-full h-full object-contain" />
+                        <img src={icon} alt="icon" className="w-full h-full object-cover" />
                       </div>
                     </motion.div>
                   );

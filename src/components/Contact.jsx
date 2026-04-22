@@ -30,7 +30,7 @@ export default function Contact() {
               <div className="flex flex-col justify-between py-1 text-sm font-light text-gray-200">
                 <p>+62 857 9920 9279</p>
                 <p>kayla.hadianinda@gmail.com</p>
-                <a href="#" className="underline hover:text-[#9d1010] transition-colors">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/kaylahildaa11" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#9d1010] transition-colors">LinkedIn</a>
               </div>
             </div>
 
@@ -41,16 +41,16 @@ export default function Contact() {
                    <img src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png" alt="Tiktok" className="w-full h-full object-cover" />
                  </div>
                  <div className="text-xs font-light space-y-1">
-                   <a href="#" className="block hover:underline">@kayyylaaah</a>
-                   <a href="#" className="block hover:underline">@key.liesss</a>
+                   <a href="https://www.tiktok.com/@kayyylaaah" target="_blank" rel="noopener noreferrer" className="block hover:underline">@kayyylaaah</a>
+                   <a href="https://www.tiktok.com/@key.liesss" target="_blank" rel="noopener noreferrer" className="block hover:underline">@key.liesss</a>
                  </div>
               </div>
               <div className="flex items-center gap-3">
                  <div className="w-8 h-8 rounded-full bg-white overflow-hidden p-1 flex items-center justify-center">
-                   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="Instagram" className="w-full h-full object-cover" />
+                   <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram" className="w-full h-full object-cover" />
                  </div>
                  <div className="text-xs font-light">
-                   <a href="#" className="block hover:underline">@kaylahildaa</a>
+                   <a href="https://www.instagram.com/kaylahildaa" target="_blank" rel="noopener noreferrer" className="block hover:underline">@kaylahildaa</a>
                  </div>
               </div>
             </div>

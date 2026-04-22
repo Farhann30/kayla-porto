@@ -37,7 +37,7 @@ export default function CommunityServiceDigital() {
               <div className="w-16 h-1 bg-[#999] rounded-b-md"></div>
             </div>
             <div className="text-center mt-6">
-              <a href="#" className="text-primary font-serif font-bold text-xl underline">Click Here!</a>
+              <a href="https://www.moncongloebulu.com/#/pengaduan" target="_blank" rel="noopener noreferrer" className="text-primary font-serif font-bold text-xl underline">Click Here!</a>
             </div>
           </div>
           <p className="text-gray-300 leading-relaxed font-light text-[15px]">

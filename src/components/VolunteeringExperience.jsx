@@ -51,7 +51,7 @@ export default function VolunteeringExperience() {
              </p>
           </div>
           
-          <div className="w-48 md:w-56 h-[400px] md:h-[480px] border-[5px] border-gray-800 rounded-[2rem] md:rounded-[2.5rem] overflow-hidden flex-shrink-0 bg-black relative shadow-2xl mt-8 lg:mt-0">
+          <div className="w-48 md:w-56 h-[400px] md:h-[480px] border-[5px] border-gray-800 rounded-[1rem] md:rounded-[1.25rem] overflow-hidden flex-shrink-0 bg-black relative shadow-2xl mt-8 lg:mt-0">
              <img src="/images/kayla porto foto/HERO 11/HERO 11.3.png" className="w-full h-full object-cover" alt="PKKMB Content" />
           </div>
         </motion.div>

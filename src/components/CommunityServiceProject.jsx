@@ -35,7 +35,7 @@ export default function CommunityServiceProject() {
             <div className="w-20 h-1.5 mt-1 bg-[#a3a3a3] rounded-full"></div>
           </div>
           <div className="text-center mt-6">
-            <a href="#" className="text-primary font-serif font-bold text-xl underline">Click Here!</a>
+            <a href="https://youtu.be/zm9WlK1gbLs?si=CIouyQwtFaKVETPJ" target="_blank" rel="noopener noreferrer" className="text-primary font-serif font-bold text-xl underline">Click Here!</a>
           </div>
         </div>
 
@@ -48,7 +48,7 @@ export default function CommunityServiceProject() {
             <div className="w-20 h-1.5 mt-1 bg-[#a3a3a3] rounded-full"></div>
           </div>
           <div className="text-center mt-6">
-            <a href="#" className="text-primary font-serif font-bold text-xl underline">Click Here!</a>
+            <a href="https://drive.google.com/file/d/1B8BWUSTEJgXL-UplNZH332NJAXcWxUBP/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" className="text-primary font-serif font-bold text-xl underline">Click Here!</a>
           </div>
         </div>
       </motion.div>

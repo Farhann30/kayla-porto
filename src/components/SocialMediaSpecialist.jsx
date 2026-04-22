@@ -27,30 +27,29 @@ export default function SocialMediaSpecialist() {
           initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          className="order-1 md:order-2 flex justify-center gap-4 md:gap-8 overflow-x-auto pb-8 snap-x"
+          className="order-1 md:order-2 flex justify-center items-center relative w-full h-[450px] md:h-[550px] mt-12 md:mt-0 max-w-[400px] md:max-w-[500px] mx-auto"
         >
-          {/* Mockup 1 */}
-          <div className="relative">
-            <div className="w-48 md:w-56 h-[400px] md:h-[480px] border-4 border-gray-800 rounded-[2.5rem] overflow-hidden flex-shrink-0 snap-center bg-black relative shadow-2xl">
-              <img src="/images/kayla porto foto/HERO 6/HERO 6.png" className="w-full h-full object-cover" alt="Tiktok KKN 1" />
-            </div>
-            <div className="text-center mt-4">
-              <a href="#" className="text-primary font-serif font-bold text-sm underline">Click Here!</a>
+          {/* Mockup 1 (Back Left) */}
+          <div className="absolute left-[0%] md:left-[-15%] z-10 -rotate-12 scale-90 hover:z-40 hover:scale-105 hover:-rotate-6 transition-all duration-500 w-40 md:w-56 h-[320px] md:h-[480px] border-4 border-gray-800 rounded-[1.25rem] overflow-hidden flex-shrink-0 bg-black shadow-xl cursor-pointer">
+            <img src="/images/kayla porto foto/HERO 6/HERO 6.png" className="w-full h-full object-cover" alt="Tiktok KKN 1" />
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/70 px-4 py-2 rounded-full backdrop-blur-sm">
+              <a href="https://www.tiktok.com/@kknt114_moncongloebulu?_r=1&_t=ZS-95kfv5Xcjp7" target="_blank" rel="noopener noreferrer" className="text-primary font-serif font-bold text-sm underline whitespace-nowrap">Click Here!</a>
             </div>
           </div>
-          {/* Mockup 2 */}
-          <div className="relative">
-            <div className="w-48 md:w-56 h-[400px] md:h-[480px] border-4 border-gray-800 rounded-[2.5rem] overflow-hidden flex-shrink-0 snap-center bg-black relative shadow-2xl">
-              <img src="/images/kayla porto foto/HERO 6/HERO 6.1.png" className="w-full h-full object-cover" alt="IG KKN" />
-            </div>
-            <div className="text-center mt-4">
-              <a href="#" className="text-primary font-serif font-bold text-sm underline">Click Here!</a>
+          
+          {/* Mockup 3 (Back Right) */}
+          <div className="absolute right-[0%] md:right-[-15%] z-20 rotate-12 scale-90 hover:z-40 hover:scale-105 hover:rotate-6 transition-all duration-500 w-40 md:w-56 h-[320px] md:h-[480px] border-4 border-gray-800 rounded-[1.25rem] overflow-hidden flex-shrink-0 bg-black shadow-xl cursor-pointer">
+            <img src="/images/kayla porto foto/HERO 6/HERO 6.2.png" className="w-full h-full object-cover" alt="Tiktok KKN 2" />
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/70 px-4 py-2 rounded-full backdrop-blur-sm">
+              <a href="https://vt.tiktok.com/ZS9RKoeeT/" target="_blank" rel="noopener noreferrer" className="text-primary font-serif font-bold text-sm underline whitespace-nowrap">Click Here!</a>
             </div>
           </div>
-          {/* Mockup 3 */}
-          <div className="relative">
-            <div className="w-48 md:w-56 h-[400px] md:h-[480px] border-4 border-gray-800 rounded-[2.5rem] overflow-hidden flex-shrink-0 snap-center bg-black relative shadow-2xl">
-              <img src="/images/kayla porto foto/HERO 6/HERO 6.2.png" className="w-full h-full object-cover" alt="Tiktok KKN 2" />
+
+          {/* Mockup 2 (Front Center) */}
+          <div className="absolute left-[50%] -translate-x-1/2 z-30 scale-100 hover:scale-105 transition-all duration-500 w-48 md:w-60 h-[380px] md:h-[500px] border-4 border-gray-800 rounded-[1.25rem] overflow-hidden flex-shrink-0 bg-black shadow-[0_20px_50px_rgba(0,0,0,0.5)] cursor-pointer">
+            <img src="/images/kayla porto foto/HERO 6/HERO 6.1.png" className="w-full h-full object-cover" alt="IG KKN" />
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/70 px-4 py-2 rounded-full backdrop-blur-sm">
+              <a href="https://www.instagram.com/kknt114_moncongloebulu" target="_blank" rel="noopener noreferrer" className="text-primary font-serif font-bold text-sm underline whitespace-nowrap">Click Here!</a>
             </div>
           </div>
         </motion.div>
