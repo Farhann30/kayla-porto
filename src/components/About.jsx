@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import ImageWithSkeleton from './ImageWithSkeleton';
 
 export default function About() {
   return (
@@ -56,7 +57,7 @@ export default function About() {
           <div className="flex bg-[#9d1010] p-4 md:p-8 pt-12 md:pt-16 rounded-sm shadow-2xl ml-4 md:ml-12 relative min-h-[400px]">
             {/* Left Image (Graduation) - breaking out of container */}
             <div className="absolute left-[-20px] md:left-[-60px] top-[-30px] md:top-[-40px] w-48 md:w-64 h-[280px] md:h-[380px] bg-white p-2 md:p-3 rounded-sm shadow-xl z-10">
-              <img 
+              <ImageWithSkeleton 
                 src="/images/kayla porto foto/HERO 2/HERO 2.JPEG" 
                 alt="Graduation" 
                 className="w-full h-full object-cover grayscale"
@@ -64,7 +65,7 @@ export default function About() {
             </div>
             {/* Right Image (Casual) */}
             <div className="w-full pl-[40%] md:pl-[45%]">
-               <img 
+               <ImageWithSkeleton 
                 src="/images/kayla porto foto/HERO 2/HERO 2.1.JPG" 
                 alt="Casual" 
                 className="w-full h-full object-cover rounded-sm shadow-md"

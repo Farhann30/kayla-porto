@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import ImageWithSkeleton from './ImageWithSkeleton';
 
 export default function CommunityServiceDigital() {
   return (
@@ -31,7 +32,7 @@ export default function CommunityServiceDigital() {
         >
           <div className="relative mb-8 max-w-lg mx-auto">
             <div className="w-full aspect-[16/10] bg-[#ddd] rounded-t-xl border-[8px] border-[#ddd] overflow-hidden shadow-2xl relative">
-              <img src="/images/kayla porto foto/HERO 7/HERO 7.png" alt="Suaraku" className="w-full h-full object-cover" />
+              <ImageWithSkeleton src="/images/kayla porto foto/HERO 7/HERO 7.png" alt="Suaraku" className="w-full h-full object-cover" />
             </div>
             <div className="w-[110%] ml-[-5%] h-4 bg-[#bbb] rounded-b-xl shadow-xl flex justify-center">
               <div className="w-16 h-1 bg-[#999] rounded-b-md"></div>
@@ -52,9 +53,9 @@ export default function CommunityServiceDigital() {
           viewport={{ once: true }}
         >
           <div className="grid grid-cols-2 gap-4 mb-8">
-            <img src="/images/kayla porto foto/HERO 7/HERO 7.1.png" alt="Group" className="col-span-2 w-full h-48 object-cover rounded-md shadow-md grayscale" />
-            <img src="/images/kayla porto foto/HERO 7/HERO 7.2.png" alt="Individual" className="w-full h-40 object-cover rounded-md shadow-md grayscale" />
-            <img src="/images/kayla porto foto/HERO 7/HERO 7.3.png" alt="Table" className="w-full h-40 object-cover rounded-md shadow-md" />
+            <ImageWithSkeleton src="/images/kayla porto foto/HERO 7/HERO 7.1.png" alt="Group" className="col-span-2 w-full h-48 object-cover rounded-md shadow-md grayscale" />
+            <ImageWithSkeleton src="/images/kayla porto foto/HERO 7/HERO 7.2.png" alt="Individual" className="w-full h-40 object-cover rounded-md shadow-md grayscale" />
+            <ImageWithSkeleton src="/images/kayla porto foto/HERO 7/HERO 7.3.png" alt="Table" className="w-full h-40 object-cover rounded-md shadow-md" />
           </div>
           <p className="text-gray-300 leading-relaxed font-light text-[15px]">
             As the Sub-district Secretary during my Community Service Program (KKN), I streamlined administrative workflows across three villages by managing daily attendance for all students and maintaining high disciplinary standards. I was responsible for drafting essential formal documentation, including official letters for sub-district events, while ensuring seamless communication between team members and local stakeholders. My role was pivotal in ensuring that all administrative tasks and reporting were executed with high accountability and remained strictly on schedule.

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import ImageWithSkeleton from './ImageWithSkeleton';
 
 export default function Showcase() {
   return (
@@ -30,17 +31,17 @@ export default function Showcase() {
         >
           {/* Mockup 1 (Left Back) */}
           <div className="absolute left-[0%] md:left-[-15%] z-10 -rotate-12 scale-90 hover:z-40 hover:scale-105 hover:-rotate-6 transition-all duration-500 w-40 md:w-56 h-[320px] md:h-[480px] border-4 border-gray-800 rounded-[1.25rem] overflow-hidden flex-shrink-0 bg-black shadow-xl cursor-pointer">
-            <img src="/images/kayla porto foto/HERO 4/HERO 4.PNG" className="w-full h-full object-cover" alt="IG Profile" />
+            <ImageWithSkeleton src="/images/kayla porto foto/HERO 4/HERO 4.PNG" className="w-full h-full object-cover" alt="IG Profile" />
           </div>
           
           {/* Mockup 3 (Right Back) */}
           <div className="absolute right-[0%] md:right-[-15%] z-20 rotate-12 scale-90 hover:z-40 hover:scale-105 hover:rotate-6 transition-all duration-500 w-40 md:w-56 h-[320px] md:h-[480px] border-4 border-gray-800 rounded-[1.25rem] overflow-hidden flex-shrink-0 bg-black shadow-xl cursor-pointer">
-            <img src="/images/kayla porto foto/HERO 4/HERO 4.2.PNG" className="w-full h-full object-cover" alt="IG Video" />
+            <ImageWithSkeleton src="/images/kayla porto foto/HERO 4/HERO 4.2.PNG" className="w-full h-full object-cover" alt="IG Video" />
           </div>
 
           {/* Mockup 2 (Center Front) */}
           <div className="absolute left-[50%] -translate-x-1/2 z-30 scale-100 hover:scale-105 transition-all duration-500 w-48 md:w-60 h-[380px] md:h-[500px] border-4 border-gray-800 rounded-[1.25rem] overflow-hidden flex-shrink-0 bg-black shadow-[0_20px_50px_rgba(0,0,0,0.5)] cursor-pointer">
-            <img src="/images/kayla porto foto/HERO 4/HERO 4.1.PNG" className="w-full h-full object-cover" alt="IG Reels" />
+            <ImageWithSkeleton src="/images/kayla porto foto/HERO 4/HERO 4.1.PNG" className="w-full h-full object-cover" alt="IG Reels" />
             <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/70 px-4 py-2 rounded-full backdrop-blur-sm">
                <a href="https://www.instagram.com/kaylahildaa" target="_blank" rel="noopener noreferrer" className="text-primary font-serif font-bold text-sm underline whitespace-nowrap">Click Here!</a>
             </div>
@@ -73,7 +74,7 @@ export default function Showcase() {
         >
           {/* Mockup 1 (Back Left) */}
           <div className="absolute left-[0%] md:left-[-10%] top-[10%] z-10 -rotate-6 scale-90 hover:z-30 hover:scale-105 hover:-rotate-3 transition-all duration-500 w-44 md:w-56 h-[350px] md:h-[480px] border-4 border-gray-800 rounded-[1.25rem] overflow-hidden flex-shrink-0 bg-black shadow-xl cursor-pointer">
-            <img src="/images/kayla porto foto/HERO 5/HERO 5.png" className="w-full h-full object-cover" alt="Tiktok Profile" />
+            <ImageWithSkeleton src="/images/kayla porto foto/HERO 5/HERO 5.png" className="w-full h-full object-cover" alt="Tiktok Profile" />
             <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/70 px-4 py-2 rounded-full backdrop-blur-sm">
               <a href="https://www.instagram.com/folka.original" target="_blank" rel="noopener noreferrer" className="text-primary font-serif font-bold text-sm underline whitespace-nowrap">Click Here!</a>
             </div>
@@ -81,7 +82,7 @@ export default function Showcase() {
           
           {/* Mockup 2 (Front Right) */}
           <div className="absolute right-[0%] md:right-[-10%] top-[0%] z-20 rotate-6 scale-100 hover:scale-105 transition-all duration-500 w-48 md:w-60 h-[380px] md:h-[500px] border-4 border-gray-800 rounded-[1.25rem] overflow-hidden flex-shrink-0 bg-black shadow-[0_20px_50px_rgba(0,0,0,0.5)] cursor-pointer">
-            <img src="/images/kayla porto foto/HERO 5/HERO 5.1.png" className="w-full h-full object-cover" alt="Tiktok Video" />
+            <ImageWithSkeleton src="/images/kayla porto foto/HERO 5/HERO 5.1.png" className="w-full h-full object-cover" alt="Tiktok Video" />
             <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/70 px-4 py-2 rounded-full backdrop-blur-sm">
               <a href="https://www.instagram.com/reel/CwKWml3NF9S/?igsh=MWhmNzllbXZhdXVpcw==" target="_blank" rel="noopener noreferrer" className="text-primary font-serif font-bold text-sm underline whitespace-nowrap">Click Here!</a>
             </div>

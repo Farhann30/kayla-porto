@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import ImageWithSkeleton from './ImageWithSkeleton';
 
 export default function Leadership() {
   return (
@@ -16,10 +17,10 @@ export default function Leadership() {
           </h2>
           <div className="flex bg-[#222] shadow-2xl rounded-sm overflow-hidden h-64 border border-gray-800">
              <div className="w-1/2 grayscale hover:grayscale-0 transition-all duration-500">
-               <img src="/images/kayla porto foto/HERO 10/HERO 10.png" alt="Team Huddle" className="w-full h-full object-cover" />
+               <ImageWithSkeleton src="/images/kayla porto foto/HERO 10/HERO 10.png" alt="Team Huddle" className="w-full h-full object-cover" />
              </div>
              <div className="w-1/2 ">
-               <img src="/images/kayla porto foto/HERO 10/HERO 10.1.png" alt="Uniform" className="w-full h-full object-cover grayscale" />
+               <ImageWithSkeleton src="/images/kayla porto foto/HERO 10/HERO 10.1.png" alt="Uniform" className="w-full h-full object-cover grayscale" />
              </div>
           </div>
         </motion.div>
@@ -67,7 +68,7 @@ export default function Leadership() {
           className="flex flex-col items-center justify-center mt-8 md:mt-0"
         >
           <div className="w-48 md:w-56 h-[400px] md:h-[480px] border-[5px] border-gray-800 rounded-[1rem] md:rounded-[1.25rem] overflow-hidden flex-shrink-0 bg-black relative shadow-2xl">
-            <img src="/images/kayla porto foto/HERO 10/HERO 10.2.png" className="w-full h-full object-cover" alt="PR Mockup" />
+            <ImageWithSkeleton src="/images/kayla porto foto/HERO 10/HERO 10.2.png" className="w-full h-full object-cover" alt="PR Mockup" />
           </div>
           <div className="text-center mt-4">
           </div>
@@ -82,7 +83,7 @@ export default function Leadership() {
           className="h-full flex items-center mt-8 md:mt-0"
         >
           <div className="w-full h-64 md:h-[480px] rounded-sm overflow-hidden shadow-2xl bg-gray-900 border-2 border-gray-800">
-             <img src="/images/kayla porto foto/HERO 10/HERO 10.3.png" alt="High Five" className="w-full h-full object-cover grayscale" />
+             <ImageWithSkeleton src="/images/kayla porto foto/HERO 10/HERO 10.3.png" alt="High Five" className="w-full h-full object-cover grayscale" />
           </div>
         </motion.div>
       </div>

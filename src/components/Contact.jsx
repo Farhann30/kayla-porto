@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import ImageWithSkeleton from './ImageWithSkeleton';
 
 export default function Contact() {
   return (
@@ -38,7 +39,7 @@ export default function Contact() {
             <div className="flex gap-12 items-center">
               <div className="flex items-center gap-3">
                  <div className="w-8 h-8 rounded-full bg-white overflow-hidden p-1 flex items-center justify-center">
-                   <img src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png" alt="Tiktok" className="w-full h-full object-cover" />
+                   <ImageWithSkeleton src="https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png" alt="Tiktok" className="w-full h-full object-cover" />
                  </div>
                  <div className="text-xs font-light space-y-1">
                    <a href="https://www.tiktok.com/@kayyylaaah" target="_blank" rel="noopener noreferrer" className="block hover:underline">@kayyylaaah</a>
@@ -47,7 +48,7 @@ export default function Contact() {
               </div>
               <div className="flex items-center gap-3">
                  <div className="w-8 h-8 rounded-full bg-white overflow-hidden p-1 flex items-center justify-center">
-                   <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram" className="w-full h-full object-cover" />
+                   <ImageWithSkeleton src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram" className="w-full h-full object-cover" />
                  </div>
                  <div className="text-xs font-light">
                    <a href="https://www.instagram.com/kaylahildaa" target="_blank" rel="noopener noreferrer" className="block hover:underline">@kaylahildaa</a>
@@ -64,7 +65,7 @@ export default function Contact() {
             className="h-[500px] w-full z-10 relative mt-16 md:mt-0"
           >
              <div className="absolute inset-0 bg-black shadow-2xl overflow-hidden ml-0 md:-ml-20">
-               <img src="/images/kayla porto foto/HERO 12/HERO 12.png" alt="Contact Kayla" className="w-full h-full object-cover opacity-90" />
+               <ImageWithSkeleton src="/images/kayla porto foto/HERO 12/HERO 12.png" alt="Contact Kayla" className="w-full h-full object-cover opacity-90" />
              </div>
           </motion.div>
         </div>

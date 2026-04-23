@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import ImageWithSkeleton from './ImageWithSkeleton';
 
 export default function Experience() {
   const images = [
@@ -30,7 +31,7 @@ export default function Experience() {
         {images.map((src, idx) => (
           <div key={idx} className="h-28 md:h-40 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-800 group cursor-pointer relative flex-shrink-0">
              <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
-             <img src={src} className="w-auto h-full object-cover group-hover:scale-105 transition-transform duration-700" alt={`Experience ${idx + 1}`} />
+             <ImageWithSkeleton src={src} className="w-auto h-full object-cover group-hover:scale-105 transition-transform duration-700" alt={`Experience ${idx + 1}`} />
           </div>
         ))}
       </motion.div>

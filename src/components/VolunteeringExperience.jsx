@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import ImageWithSkeleton from './ImageWithSkeleton';
 
 export default function VolunteeringExperience() {
   return (
@@ -13,15 +14,15 @@ export default function VolunteeringExperience() {
         >
           {/* Large Vertical */}
           <div className="h-full rounded-sm overflow-hidden shadow-2xl bg-[#222]">
-            <img src="/images/kayla porto foto/HERO 11/HERO 11.png" alt="Lanyard" className="w-full h-full object-cover" />
+            <ImageWithSkeleton src="/images/kayla porto foto/HERO 11/HERO 11.png" alt="Lanyard" className="w-full h-full object-cover" />
           </div>
           {/* Two Horizontal */}
           <div className="flex flex-col gap-4 h-full">
             <div className="h-1/2 rounded-sm overflow-hidden shadow-2xl bg-[#222]">
-              <img src="/images/kayla porto foto/HERO 11/HERO 11.1.png" alt="Team" className="w-full h-full object-cover object-top" />
+              <ImageWithSkeleton src="/images/kayla porto foto/HERO 11/HERO 11.1.png" alt="Team" className="w-full h-full object-cover object-top" />
             </div>
             <div className="h-1/2 rounded-sm overflow-hidden shadow-2xl bg-[#222]">
-              <img src="/images/kayla porto foto/HERO 11/HERO 11.2.png" alt="Group" className="w-full h-full object-cover" />
+              <ImageWithSkeleton src="/images/kayla porto foto/HERO 11/HERO 11.2.png" alt="Group" className="w-full h-full object-cover" />
             </div>
           </div>
         </motion.div>
@@ -52,7 +53,7 @@ export default function VolunteeringExperience() {
           </div>
           
           <div className="w-48 md:w-56 h-[400px] md:h-[480px] border-[5px] border-gray-800 rounded-[1rem] md:rounded-[1.25rem] overflow-hidden flex-shrink-0 bg-black relative shadow-2xl mt-8 lg:mt-0">
-             <img src="/images/kayla porto foto/HERO 11/HERO 11.3.png" className="w-full h-full object-cover" alt="PKKMB Content" />
+             <ImageWithSkeleton src="/images/kayla porto foto/HERO 11/HERO 11.3.png" className="w-full h-full object-cover" alt="PKKMB Content" />
           </div>
         </motion.div>
       </div>

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import ImageWithSkeleton from './ImageWithSkeleton';
 
 export default function CommunityServiceProject() {
   return (
@@ -29,7 +30,7 @@ export default function CommunityServiceProject() {
         {/* Laptop 1 */}
         <div className="relative w-full max-w-[500px]">
           <div className="w-full aspect-[16/10] bg-[#e5e5e5] rounded-t-xl border-[12px] border-[#e5e5e5] overflow-hidden shadow-2xl relative">
-            <img src="/images/kayla porto foto/HERO 8/HERO 8.png" alt="Youtube 1" className="w-full h-full object-cover" />
+            <ImageWithSkeleton src="/images/kayla porto foto/HERO 8/HERO 8.png" alt="Youtube 1" className="w-full h-full object-cover" />
           </div>
           <div className="w-[110%] ml-[-5%] h-5 bg-[#d4d4d4] rounded-b-xl shadow-xl flex justify-center">
             <div className="w-20 h-1.5 mt-1 bg-[#a3a3a3] rounded-full"></div>
@@ -42,7 +43,7 @@ export default function CommunityServiceProject() {
         {/* Laptop 2 */}
         <div className="relative w-full max-w-[500px]">
           <div className="w-full aspect-[16/10] bg-[#e5e5e5] rounded-t-xl border-[12px] border-[#e5e5e5] overflow-hidden shadow-2xl relative">
-            <img src="/images/kayla porto foto/HERO 8/HERO 8.1.png" alt="Youtube 2" className="w-full h-full object-cover" />
+            <ImageWithSkeleton src="/images/kayla porto foto/HERO 8/HERO 8.1.png" alt="Youtube 2" className="w-full h-full object-cover" />
           </div>
           <div className="w-[110%] ml-[-5%] h-5 bg-[#d4d4d4] rounded-b-xl shadow-xl flex justify-center">
             <div className="w-20 h-1.5 mt-1 bg-[#a3a3a3] rounded-full"></div>
