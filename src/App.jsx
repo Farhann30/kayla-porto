@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar'
+import GlobalLoader from './components/GlobalLoader'
 import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
@@ -14,6 +15,7 @@ import Contact from './components/Contact'
 function App() {
   return (
     <div className="bg-[#0f0f0f] text-white min-h-screen font-sans selection:bg-[#9d1010] selection:text-white overflow-x-hidden">
+      <GlobalLoader />
       <Navbar />
       <main>
         <Hero />

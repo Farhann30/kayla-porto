@@ -3,13 +3,15 @@ import ImageWithSkeleton from './ImageWithSkeleton';
 
 export default function Contact() {
   return (
-    <section id="contact" className="relative min-h-[600px] flex">
+    <section id="contact" className="relative min-h-[600px] overflow-hidden">
       {/* Backgrounds */}
-      <div className="w-[45%] bg-[#0f0f0f]"></div>
-      <div className="w-[55%] bg-[#9d1010]"></div>
+      <div className="absolute inset-0 flex flex-col md:flex-row">
+        <div className="w-full h-[60%] md:h-full md:w-[45%] bg-[#0f0f0f]"></div>
+        <div className="w-full h-[40%] md:h-full md:w-[55%] bg-[#9d1010]"></div>
+      </div>
 
       {/* Content Container */}
-      <div className="absolute inset-0 max-w-7xl mx-auto px-6 md:px-12 flex items-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 py-16 flex items-center min-h-[600px]">
         <div className="grid md:grid-cols-2 w-full items-center">
           
           {/* Left Text */}

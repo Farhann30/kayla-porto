@@ -26,12 +26,12 @@ export default function Experience() {
         initial={{ opacity: 0, scale: 0.95 }}
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
-        className="flex flex-wrap justify-center gap-3 md:gap-4 max-w-5xl mx-auto mb-12"
+        className="flex overflow-x-auto md:flex-wrap md:justify-center gap-3 md:gap-4 max-w-5xl mx-auto mb-12 pb-4 snap-x"
       >
         {images.map((src, idx) => (
-          <div key={idx} className="h-28 md:h-40 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-800 group cursor-pointer relative flex-shrink-0">
+          <div key={idx} className="w-[280px] md:w-auto md:h-40 aspect-video rounded-xl overflow-hidden shadow-2xl border-2 border-gray-800 group cursor-pointer relative flex-shrink-0 snap-center">
              <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
-             <ImageWithSkeleton src={src} className="w-auto h-full object-cover group-hover:scale-105 transition-transform duration-700" alt={`Experience ${idx + 1}`} />
+             <ImageWithSkeleton src={src} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt={`Experience ${idx + 1}`} />
           </div>
         ))}
       </motion.div>
